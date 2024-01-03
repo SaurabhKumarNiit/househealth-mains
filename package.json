@@ -8,10 +8,10 @@
     "start": "next start",
     "export": "next export",
     "predeploy": "npm run build && npm run export",
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
-  "homepage": "https://SaurabhKumarNiit.github.io/househealth-service",
+  "homepage": "https://SaurabhKumarNiit.github.io/househealth-mains",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
