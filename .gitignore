@@ -1,0 +1,10 @@
+# .gitignore
+
+# Exclude build artifacts
+.next/
+out/
+node_modules/
+
+# Exclude other large files
+.DS_Store
+*.log
