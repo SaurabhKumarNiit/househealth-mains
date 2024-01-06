@@ -1,7 +1,11 @@
-// next.config.js
-module.exports = {
-  basePath: '/househealth-mains', // Replace with your repository name
-  assetPrefix: '/househealth-mains/', // Replace with your repository name
+/** @type {import('next').NextConfig} */
 
-  // Other configurations
-};
+const nextConfig = {
+    output: 'export',
+  }
+
+module.exports = nextConfig
+  
+
+  
+  
